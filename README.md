@@ -1,3 +1,14 @@
+# これは
+NextJsのさわりだけを試したものです。
+最低限な静的ウェブサイトレベルです。
+- ```npm build```での成果物エクスポート(outディレクトリが生成)
+
+- ドメイン/アプリケーションのパスプレフィックスの設定
+
+- サブページとの画面遷移
+
+## 以下オリジナルREADME
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
