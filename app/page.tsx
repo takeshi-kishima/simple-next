@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import styles from "./page.module.css";
 
 export default function Home() {
@@ -40,6 +41,13 @@ export default function Home() {
       </div>
 
       <div className={styles.grid}>
+        <Link href="/subPage" title={"サブページへ"} className={styles.card}>
+          <h2>
+            subPage <span>-&gt;</span>
+          </h2>
+          <p>{"サブページへジャンプテスト"}</p>
+        </Link>
+
         <a
           href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
           className={styles.card}
